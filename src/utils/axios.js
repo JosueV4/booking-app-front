@@ -6,7 +6,7 @@ import { logout } from '../store/slices/app.slice';
 
 const axios = axiosDefault.create({
   // baseURL: 'https://hotels-api.academlo.tech'
-  baseURL: 'https://hotels-api.academlo.tech',
+  baseURL: 'https://booking-app-back-ipm6.onrender.com'
 });
 
 axios.interceptors.request.use(function (config) {
