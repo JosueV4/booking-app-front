@@ -1,0 +1,8 @@
+.star-input {
+    display: inline-flex;
+}
+
+.star-input i {
+    color: inherit;
+    padding: 0 2px;
+}

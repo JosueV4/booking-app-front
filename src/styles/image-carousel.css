@@ -1,0 +1,27 @@
+.carousel-img {
+    object-fit: cover;
+    height: 60vh;
+    border-radius: 8px;
+}
+
+.images-previews {
+    display: flex;
+    width: 100%;
+}
+
+.images-previews .image-container {
+    padding: 0 .5em;
+    width: 15%;
+}
+
+.images-previews .image-container img {
+    height: 60px;
+    object-fit: cover;
+    padding: 3px;
+    cursor: pointer;
+}
+
+.images-previews .image-container img.active {
+    border: 2px solid;
+    border-radius: 3px;
+}

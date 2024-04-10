@@ -1,0 +1,9 @@
+.city-item {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+
+.city-item img {
+    width: 28px;
+}

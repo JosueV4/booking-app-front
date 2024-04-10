@@ -1,0 +1,10 @@
+.reviews-average {
+    display: flex;
+    gap: 1rem;
+}
+
+.reviews-average .number {
+    font-size: 40px;
+    font-weight: 600;
+    color: #ffc107;
+}
